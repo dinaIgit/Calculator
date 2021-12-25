@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body{
+    _background-color: beige;
+    background: url('./img//desktopKakusPhoneBg.jpg') no-repeat;
+    background-size: cover;
+}
+
+h2{
+    color: rgb(96, 161, 163);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    margin-left: 20px;
+    _text-transform: lowercase;
+}
+
+.main div{
+    margin: 20px;
+    padding-left: 20px;
+}
+
+.wrapper div{
+    margin-left: -15px;
+}
+
+button{
+    width: 70px;
+    height: 25px;
+    background-color: rgb(168, 211, 212);
+    color: azure;
+    border: 1px solid rgba(10, 105, 10, 0.486);
+    border-radius: 4px;
+}
+.btn{
+    margin: 20px 0;
+    margin-left: 10px;
+}
+
+.palindrome span{
+    margin: 10px auto;
+    display: block;
+}
+
+.line{
+    color: cadetblue;
+}

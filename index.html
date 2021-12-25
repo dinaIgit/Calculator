@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocumentCalculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <div class="line">=-=-=-=-=-=-=-=-=-=-=-=-=-=-=&nbsp; 1 &nbsp;=-=-=-=-=-=-=-=-=-=-=-=-=-=-=</div>
+        <div class="wrapper">
+            <h2>Calculator</h2>
+            <div class="sumAdd">
+            <input type="number" id="numAdd1"> + <input type="number" id="numAdd2">
+            <button id="btnAdd">Add</button> = <span id="resAdd"></span>
+            </div>
+            <div class="sumSub">
+                <input type="number" id="numSub1"> - <input type="number" id="numSub2"> <button id="btnSub">Sub</button> = <span id="resSub"></span>
+            </div>
+            <div class="sumMultiply">
+                <input type="number" id="numMulti1"> * <input type="number" id="numMulti2"> <button id="btnMulti">Multiply</button> = <span id="resMulti"></span>
+            </div>
+            <div class="sumInfinity">
+                <input type="number" id="numInfi1"> / <input type="number" id="numInfi2">
+                <button id="btnInfi">Infinity</button> = <span id="resInfi"></span>
+            </div>
+            <button type="reset" class="btn" id="btnReset">Reset</button>
+        </div>
+        <div class="line">=-=-=-=-=-=-=-=-=-=-=-=-=-=-=&nbsp; 2 &nbsp;=-=-=-=-=-=-=-=-=-=-=-=-=-=-=</div>
+        <div class="palindrome">
+            <h2>Palindrome</h2>
+            <br>
+            <input type="text" id="inputText"> <button id="check">Check</button> <button type="reset" id="palindromeReset">Reset</button> <br>
+            <span id="answer"></span>
+        </div><br>
+        <div class="line">=-=-=-=-=-=-=-=-=-=-=-=-=-=-=&nbsp; 3 &nbsp;=-=-=-=-=-=-=-=-=-=-=-=-=-=-=</div>
+        <div class="count">
+            <h2>Count</h2> <br>
+            <button id="click">Click</button> <button type="reset" id="countReset">Reset</button><br> <br>
+            <span id="countClick"></span>
+        </div>
+        <div class="line">=-=-=-=-=-=-=-=-=-=-=-=-=-=-=&nbsp; End &nbsp;=-=-=-=-=-=-=-=-=-=-=-=-=-=-=</div>
+    </div>
+</body>
+</html>
